@@ -7,9 +7,30 @@ img {
   height: 100px;
 }
 
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 52px;
+}
+
+.info {
+  margin-top: 32px;
+  max-width: 200px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  text-wrap: wrap;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
 }
 
 /* do not edit this footer */
